@@ -1,0 +1,20 @@
+{
+    "name": "victorgodoy/1-modelagem-codigo",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Victor Godoy",
+            "email": "victor.hgodoy@icloud.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^13"
+    },
+    "scripts": {
+        "test": "phpunit --colors --bootstrap vendor/autoload.php src/tests"
+    }
+}
